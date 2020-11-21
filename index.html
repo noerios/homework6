@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, is-flex, is-justify-content-center">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <title>Document</title>
 </head>
 <body>
-    <section class="section">
+    <section class="section, is-justify-content-center">
         <div class="container">
           <h1 class="title">Local Weather</h1>
           <h2 class="subtitle">
@@ -18,7 +18,7 @@
             
             <div class="field">
                 <div class="control">
-                  <input class="input is-small" name="city" type="text" placeholder="Search city">
+                  <input class="input is-small" id="city" type="text" placeholder="Search city">
                 </div>
             <button class="button is-small" id="searchBtn">Search</button>
               
@@ -26,7 +26,7 @@
       
       </section>
 
-      <div class="card" id="currentWeather">
+      <div class="card, is-justify-content-center" id="currentWeather">
         <h2 id="cityName"></h2>
         <!-- <div id="weatherIcon"></div> -->
         <h2 id="currentTemp"></h2>
