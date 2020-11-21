@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    const myApiKey = 'd5ab1b02d29d3efac51697cf7938b1c6'
+    const myApiKey = '2c6bf35b79f11e55f6ca64bbb24dbb3e'
 
     $('#searchBtn').click(function () {
         let userInput = $('#city').val();
